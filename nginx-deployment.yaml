@@ -3,6 +3,7 @@ kind: Deployment #Deployment kubernetes and collection
 
 metadata:
    name: nginx-deployment
+   namespace:default
 spec:
   replicas: 5
   selector:
